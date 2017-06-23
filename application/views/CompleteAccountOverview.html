@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Complete Account Overview</title>
+
+    <!-- Bootstrap -->
+    <link href="../../assets/newdesign/css/bootstrap.min.css" rel="stylesheet">
+    <!--custom css-->
+    <link rel="stylesheet" href="../../assets/newdesign/css/style.min.css">
+
+    <!--Custom Style-->
+    <style>
+        .col-md-3, .col-sm-4 {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--navbar-->
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#mobile" aria-expanded="false" id="navbarToggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="../../assets/newdesign/images/logo.png" alt="logo"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="mobile">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Dashboard </a></li>
+                <li><a href="#">Create Campaign</a></li>
+                <li><a href="AutomaticOptimization.html">Automatic Rules</a></li>
+                <li><a href="#">Ad Accounts</a></li>
+                <li><a href="#">Support &amp; Help</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right hidden-xs">
+                <li><a href="#">
+                    <img src="../../assets/newdesign/images/Globe.png" alt="Globe">
+                    <img src="../../assets/newdesign/images/Red%20Small.png" alt="Red" style="vertical-align: top">
+                </a></li>
+                <li><a href="#">
+                    <img src="../../assets/newdesign/images/Settings.png" alt="Settings"></a></li>
+                <li><a href="#"><img src="../../assets/newdesign/images/profile.png" class="img-rounded" style="margin-top: -4px" alt="profile"></a></li>
+            </ul>
+
+            <!--View in mobile version-->
+            <ul class="nav navbar-nav navbar-right nav-mob visible-xs">
+                <li><a href="#">
+                    <img src="../../assets/newdesign/images/Globe.png" alt="Globe">
+                    <img src="../../assets/newdesign/images/Red%20Small.png" alt="Red" style="vertical-align: top">
+                </a></li>
+                <li><a href="#">
+                    <img src="../../assets/newdesign/images/Settings.png" alt="Settings"></a></li>
+                <li><a href="#"><img src="../../assets/newdesign/images/profile.png" class="img-rounded" style="margin-top: -4px" alt="profile"></a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!--End navbar-->
+
+
+<!--Breadcrumbs-->
+
+<ol class="breadcrumb own-breadcrumb">
+    <div class="container-fluid">
+        <li><a href="#">Dashboard / </a></li>
+        <li class="active">Account Name</li>
+        <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="today"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Today
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="today">
+        <li><a href="#">Today</a></li>
+        <li><a href="#">Today 1</a></li>
+        <li><a href="#">Today 2</a></li>
+    </ul>
+</div>
+    </div>
+</ol>
+
+<!--End Breadcrumbs-->
+
+
+<!--Content-->
+
+<div class="content">
+    <div class="row">
+        <div class="container-fluid">
+
+        <!--Account-->
+
+        <div class="menu account">
+
+            <!--First row-->
+
+            <div class="col-sm-4 col-md-3 col-lg-55">
+                <div class="panel panel-default" id="heading1">
+                    <div class="panel-heading" role="tab" >
+                        <a role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#clkWeb" aria-expanded="true" aria-controls="clkWeb">
+                            <h4 class="panel-title">
+                                CLICKS TO WEBSITE
+                                <span class="glyphicon" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="clkWeb" class="panel-collapse collapse in" role="tabpanel"
+                         aria-labelledby="heading1">
+                        <div class="panel-body">
+                            <ul>
+                                <li>40,013</li>
+                                <li><span class="text-bold"> $0.23 </span> <span class="text-muted"> PER CLICK </span> </li>
+                                <li><span class="text-bold"> 3.55% </span> <span class="text-muted"> Click rate </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-md-3 col-lg-55">
+                <div class="panel panel-default" id="heading2">
+                    <div class="panel-heading" role="tab" >
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#webConversion" aria-expanded="false" aria-controls="webConversion">
+                            <h4 class="panel-title">
+                                WEBSITE CONVERSIONS
+                                <span class="glyphicon" ria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="webConversion" class="panel-collapse collapse in" role="tabpanel"
+                         aria-labelledby="heading2">
+                        <div class="panel-body">
+                            <ul>
+                                <li>10,001</li>
+                                <li><span class="text-bold"> $0.98 </span> <span class="text-muted"> PER CONVERSION </span></li>
+                                <li><span class="text-bold"> 3.55% </span> <span class="text-muted">CONVERSION RATE</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-md-3 col-lg-55">
+                <div class="panel panel-default" id="heading3">
+                    <div class="panel-heading" role="tab" >
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#totalSpent" aria-expanded="false" aria-controls="totalSpent">
+                            <h4 class="panel-title">
+                                TOTAL SPENT
+                                <span class="glyphicon " aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="totalSpent" class="panel-collapse collapse in" role="tabpanel"
+                         aria-labelledby="heading3">
+                        <div class="panel-body">
+                            <ul>
+                                <li>$100,078</li>
+                                <li> <span class="text-bold"> $5,890 </span> <span class="text-muted">SPENT TODAY</span></li>
+                                <li><span class="text-bold"> $15,891 </span> <span class="text-muted">PAST 7 DAYS</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix visible-sm"></div>
+
+            <div class="col-sm-4 col-md-3 col-lg-55">
+                <div class="panel panel-default" id="heading4">
+                    <div class="panel-heading" role="tab">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#imperssion" aria-expanded="false" aria-controls="imperssion">
+                            <h4 class="panel-title">
+                                IMPRESSIONS
+                                <span class="glyphicon " aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="imperssion" class="panel-collapse collapse in" role="tabpanel"
+                         aria-labelledby="heading4">
+                        <div class="panel-body">
+                            <ul>
+                                <li>40,013</li>
+                                <li><span class="text-bold"> $8.90 </span> <span class="text-muted"> PER 1k IMPRESSIONS </span> </li>
+                                <li><span class="text-bold"> 2.3 </span> <span class="text-muted"> FREQUENCY RATE </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix visible-md"></div>
+
+            <div class="col-sm-4 col-md-3 col-lg-55">
+                <div class="panel panel-default" id="heading5">
+                    <div class="panel-heading" role="tab">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#postEng" aria-expanded="false" aria-controls="postEng">
+                            <h4 class="panel-title">
+                                POST ENGAGEMENTS
+                                <span class="glyphicon " aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="postEng" class="panel-collapse collapse in" role="tabpanel"
+                         aria-labelledby="heading5">
+                        <div class="panel-body">
+                            <ul>
+                                <li>10,001</li>
+                                <li><span class="text-bold">$0.98 </span> <span class="text-muted">PER ENGAGEMENT</span></li>
+                                <li><span class="text-bold">3.55% </span> <span class="text-muted">Engagement Rate</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix visible-lg"></div>
+
+            <!--End First row-->
+
+
+            <!--Second row-->
+
+            <div class="col-sm-4 col-md-3 col-lg-55">
+                <div class="panel panel-default" id="heading6">
+                    <div class="panel-heading" role="tab" >
+                        <a role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#likes" aria-expanded="true" aria-controls="likes">
+                            <h4 class="panel-title">
+                                page likes
+                                <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="likes" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="heading6">
+                        <div class="panel-body">
+                            <ul>
+                                <li>2,089</li>
+                                <li><span class="text-bold">$5.32</span> <span class="text-muted">PER PAGE LIKE</span></li>
+                                <li><span class="text-bold">3.55%</span> <span class="text-muted"> PAGE LIKE RATE</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix visible-sm"></div>
+
+            <div class="col-sm-4 col-md-3 col-lg-55">
+                <div class="panel panel-default" id="heading7">
+                    <div class="panel-heading" role="tab" >
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#facebookLeads" aria-expanded="false" aria-controls="facebookLeads">
+                            <h4 class="panel-title">
+                                FACEBOOK LEADS
+                                <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="facebookLeads" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                        <div class="panel-body">
+                            <ul>
+                                <li>10,001</li>
+                                <li><span class="text-bold">$0.98 </span> <span class="text-muted">PER LEAD </span></li>
+                                <li><span class="text-bold">3.55% </span> <span class="text-muted"> LEAD RATE </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-md-3 col-lg-55">
+                <div class="panel panel-default" id="heading8">
+                    <div class="panel-heading" role="tab" >
+                        <a class="collapsed" role="button" data-toggle="collapse"
+                           data-parent="#accordion"
+                           href="#appInstall" aria-expanded="false" aria-controls="appInstall">
+                            <h4 class="panel-title">
+                                APP INSTALLS
+                                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="appInstall" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="heading8">
+                        <div class="panel-body">
+                            <ul>
+                                <li>0</li>
+                                <li><span class="text-bold">$0 </span> <span class="text-muted"> PER APP INSTALL </span></li>
+                                <li><span class="text-bold">0% </span> <span class="text-muted">  INSTALL RATE </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix visible-md"></div>
+
+            <div class="col-sm-4 col-md-3 col-md-offset-3 col-lg-offset-0 col-lg-55">
+                <div class="panel panel-default" id="heading9">
+                    <div class="panel-heading" role="tab">
+                        <a class="collapsed" role="button" data-toggle="collapse"
+                           data-parent="#accordion"
+                           href="#videoViews" aria-expanded="false" aria-controls="videoViews">
+                            <h4 class="panel-title">
+                                10 SECOND VIDEO VIEWS
+                                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="videoViews" class="panel-collapse collapse"
+                         role="tabpanel" aria-labelledby="heading9">
+                        <div class="panel-body">
+                            <ul>
+                                <li>10,001</li>
+                                <li><span class="text-bold">$0.98 </span> <span class="text-muted"> PER 10s VIEW </span></li>
+                                <li><span class="text-bold">32% </span> <span class="text-muted"> AVG % WATCHED </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix visible-sm"></div>
+
+            <div class="col-sm-4 col-sm-offset-4 col-md-3 col-md-offset-0 col-lg-55">
+                <div class="panel panel-default" id="heading10">
+                    <div class="panel-heading" role="tab">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#oflline" aria-expanded="false" aria-controls="oflline">
+                            <h4 class="panel-title">
+                                OFFLINE CONVERSIONS
+                                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="oflline" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="heading10">
+                        <div class="panel-body">
+                            <ul>
+                                <li>100</li>
+                                <li><span class="text-bold">$0.32</span> <span class="text-muted">PER CONVERSION </span></li>
+                                <li><span class="text-bold">3.55%</span> <span class="text-muted">PAGE LIKE RATE </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!--End second row-->
+
+            <!--Third-->
+            <div class="col-sm-4 col-md-3">
+                <div class="panel panel-default" id="heading11">
+                    <div class="panel-heading" role="tab" >
+                        <a role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#locations" aria-expanded="true" aria-controls="locations">
+                            <h4 class="panel-title text-left">
+                                LOCATIONS <span class="text-lowercase">by</span>
+                                <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                $/Click
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">$/Click</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="locations" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="heading11">
+                        <div class="panel-body">
+                            <ul>
+                                <li>40,013</li>
+                                <li><span class="text-muted location">USA </span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">CANADA </span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">UK </span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">SPAIN </span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">MEXICO </span> <span class="text-bold">12.123</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-md-3">
+                <div class="panel panel-default" id="heading12">
+                    <div class="panel-heading" role="tab" >
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#gender" aria-expanded="false" aria-controls="gender">
+                            <h4 class="panel-title text-left" style="padding-left: 61px;">
+                                GENDER <span class="text-lowercase">by</span>
+                                <span class="glyphicon glyphicon-triangle-bottom pull-right" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                        <div class="dropdown" style="right: 46px;">
+                            <button class="btn btn-default dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                $/Click
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">$/Click</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="gender" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="heading12">
+                        <div class="panel-body">
+                            <ul>
+                                <li>40,013</li>
+                                <li><span class="text-muted location">MEN</span> <span class="text-bold">22.123</span></li>
+                                <li><span class="text-muted location">WOMEN</span> <span class="text-bold">22.123</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-md-3">
+                <div class="panel panel-default" id="heading13">
+                    <div class="panel-heading" role="tab" >
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                           href="#ageGroup" aria-expanded="false" aria-controls="ageGroup">
+                            <h4 class="panel-title text-left" style="padding-left: 27px;">
+                                AGE GROUPS <span class="text-lowercase">by</span>
+                                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                        <div class="dropdown" style="right: 49px">
+                            <button class="btn btn-default dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                $/Click
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">$/Click</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="ageGroup" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="heading13">
+                        <div class="panel-body">
+                            <ul>
+                                <li>40,013</li>
+                                <li><span class="text-muted location">18-24</span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">25-34</span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">35-44</span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">65-64</span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">65+</span> <span class="text-bold">12.123</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix visible-sm"></div>
+
+            <div class="col-sm-4 col-sm-offset-4 col-md-3 col-md-offset-0">
+                <div class="panel panel-default" id="heading14">
+                    <div class="panel-heading" role="tab">
+                        <a class="collapsed" role="button" data-toggle="collapse"
+                           data-parent="#accordion"
+                           href="#placement" aria-expanded="false" aria-controls="placement">
+                            <h4 class="panel-title text-left" style="padding-left: 27px;">
+                                PLACEMENTS <span class="text-lowercase">by</span>
+                                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                            </h4>
+                        </a>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                $/Click
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" style="right: 47px">
+                                <li><a href="#">$/Click</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                                <li><a href="#">Some text</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="placement" class="panel-collapse collapse"
+                         role="tabpanel" aria-labelledby="heading14">
+                        <div class="panel-body">
+                            <ul>
+                                <li>40,013</li>
+                                <li><span class="text-muted location">DESKTOP FEED</span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">MOBILE FED</span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">INSTAGRAM</span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">AUDIENCE</span> <span class="text-bold">12.123</span></li>
+                                <li><span class="text-muted location">RIGHT SIDE</span> <span class="text-bold">12.123</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <!--End Third-->
+
+        </div>
+
+        <!--End Account-->
+
+        </div>
+
+        <!--Table Own-->
+
+        <div class="table-responsive table-own">
+
+            <table class="table table-hover table-condensed">
+                <div class="container-fluid">
+                <thead>
+                <tr>
+                    <th>STATUS</th><th>CAMPAIGN NAME</th><th>CLICKS</th><th>CONVERSIONS</th>
+                    <th>ENGAGEMENT</th><th>PAGE LIKES</th><th>CTR</th><th>IMPRESSIONS</th><th>SPENT</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td class="switchTable">
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <div class="slider round"></div>
+                        </label>
+                    </td>
+                    <td class="text-primary">Post: “Check out our newest montage dedicated to Dekar…”</td>
+                    <td>5</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td>
+                    <td>%3.55</td><td>100.124</td><td>$754.21</td>
+                </tr>
+                <tr>
+                    <td class="switchTable">
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <div class="slider round"></div>
+                        </label>
+                    </td>
+                    <td class="text-primary">Post: “Check out our newest montage dedicated to Dekar…”</td>
+                    <td>5</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td>
+                    <td>%3.55</td><td>100.124</td><td>$754.21</td>
+                </tr>
+                <tr>
+                    <td class="switchTable">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <div class="slider round"></div>
+                        </label>
+                    </td>
+                    <td class="text-primary">Post: “Check out our newest montage dedicated to Dekar…”</td>
+                    <td>5</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td>
+                    <td>%3.55</td><td>100.124</td><td>$754.21</td>
+                </tr>
+                <tr>
+                    <td class="switchTable">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <div class="slider round"></div>
+                        </label>
+                    </td>
+                    <td class="text-primary">Post: “Check out our newest montage dedicated to Dekar…”</td>
+                    <td>5</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td>
+                    <td>%3.55</td><td>100.124</td><td>$754.21</td>
+                </tr>
+                <tr>
+                    <td class="switchTable">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <div class="slider round"></div>
+                        </label>
+                    </td>
+                    <td class="text-primary">Post: “Check out our newest montage dedicated to Dekar…”</td>
+                    <td>5</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td><td>3,321 @ 0.32</td>
+                    <td>%3.55</td><td>100.124</td><td>$754.21</td>
+                </tr>
+                </tbody>
+                </div>
+            </table>
+
+        </div>
+
+        <!--End Table Own-->
+
+    </div>
+</div>
+
+<!--End Content-->
+
+<!--footer-->
+
+<footer class="text-center">
+    <nav>
+        <a href="#"> ABOUT US | </a>
+        <a href="#"> CONTACT US | </a>
+        <a href="#"> PRIVACY POLICY | </a>
+        <a href="#"> TOS </a>
+    </nav>
+</footer>
+
+<!--End footer-->
+
+<!-- jQuery -->
+<script src="../../assets/newdesign/js/jquery-3.2.1.min.js"></script>
+<!-- Bootstrap -->
+<script src="../../assets/newdesign/js/bootstrap.min.js"></script>
+<!-- Custom Bootstrap -->
+<script src="../../assets/newdesign/js/ComleteAccount.min.js"></script>
+</body>
+</html>

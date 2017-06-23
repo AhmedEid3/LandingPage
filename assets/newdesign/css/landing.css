@@ -1,0 +1,303 @@
+/*Created Fonts by Ahmed Eid*/
+@font-face {
+    font-family: ".SFNSText-Regular";
+    src: url("../fonts/SFNSText-Regular.otf");
+}
+@font-face {
+    font-family: ".SFNSText-Bold";
+    src: url("../fonts/SFNSText-Bold.otf");
+}
+@font-face {
+    font-family: ".SFNSDisplay-Medium";
+    src: url("../fonts/SFNSDisplay-Medium.otf");
+}
+@font-face {
+    font-family: ".SFNSDisplay-Regular";
+    src: url("../fonts/SFNSDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: ".SFNSDisplay-Bold";
+    src: url("../fonts/SFNSDisplay-Bold.otf");
+}
+@font-face {
+    font-family: RobotoRegular;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/RobotoRegular/RobotoRegular.eot);
+    src: url(../fonts/RobotoRegular/RobotoRegular.eot?#iefix) format("embedded-opentype"), url(../fonts/RobotoRegular/RobotoRegular.woff) format("woff"), url(../fonts/RobotoRegular/RobotoRegular.ttf) format("truetype")
+}
+@font-face {
+    font-family: RobotoMedium;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/RobotoMedium/RobotoMedium.eot);
+    src: url(../fonts/RobotoMedium/RobotoMedium.eot?#iefix) format("embedded-opentype"), url(../fonts/RobotoMedium/RobotoMedium.woff) format("woff"), url(../fonts/RobotoMedium/RobotoMedium.ttf) format("truetype")
+}
+@font-face {
+    font-family: Poppins-Medium;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/Poppins-Medium/Poppins-Medium.eot);
+    src: url(../fonts/Poppins-Medium/Poppins-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Poppins-Medium/Poppins-Medium.woff) format("woff"), url(../fonts/Poppins-Medium/Poppins-Medium.ttf) format("truetype")
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/Poppins-SemiBold/Poppins-SemiBold.eot);
+    src: url(../fonts/Poppins-SemiBold/Poppins-SemiBold.eot?#iefix) format("embedded-opentype"), url(../fonts/Poppins-SemiBold/Poppins-SemiBold.woff) format("woff"), url(../fonts/Poppins-SemiBold/Poppins-SemiBold.ttf) format("truetype")
+}
+/*End Created Fonts*/
+
+
+/*Helpr css*/
+.img-center {
+    display: block;
+    width: auto;
+    margin: auto;
+    margin-bottom: 15px;
+}
+/*End Helpr css*/
+
+/*Landing Page Style*/
+
+/*sticky button*/
+.btn-sticky{
+    position: relative;
+    width: 202px;
+    height: 75px;
+    padding: 20px 81px 22px 15px;
+    border-radius: 8px;
+    background-color: #0084FF;
+    font-family: "Poppins SemiBold";
+    font-size: 20px;
+    letter-spacing: -1px;
+    border: none;
+}
+.btn-sticky img{
+    position: absolute;
+    right: 15px;
+    bottom: 13px;
+}
+/*End sticky button*/
+
+/*sticky banner*/
+.sticky-banner{
+    background-color: #4A90E2;
+    height: 50px;
+    padding: 6px;
+    margin-bottom: 50px;
+}
+.sticky-banner .sticky-content{
+    width: 760px;
+    margin: auto;
+    color: #fff;
+    font-size: 25px;
+    font-family: Poppins-SemiBold;
+    letter-spacing: -1px;
+}
+.sticky-banner .btn-banner {
+    font-size: 20px;
+    background-color: #1D2E44;
+    width: 168px;
+    height: 35px;
+    padding: 0;
+    border-radius: 8px;
+    margin-left: 21px;
+    letter-spacing: -1px;
+}
+/*End sticky banner*/
+
+
+/*Main Section*/
+.main{
+    margin-bottom: 127px;
+}
+.nav-landing, .pop-up {
+    height: 900px;
+}
+
+/*navbar-landing*/
+.nav-landing{
+    background-color: #1B1B1B;
+    margin-right: -15px;
+}
+.nav-landing .navbar-default {
+    height: 80px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #979797;
+    border-radius: 0;
+}
+.nav-landing .navbar-brand{
+    border: none;
+    padding:22px 40px 24px 47px;
+    height: 80px;
+}
+.nav-landing .navbar-default .navbar-nav > li > a {
+    height: 80px;
+    padding: 29px 35px 25px 0;
+    color: #fff;
+}
+
+.nav-landing p{
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 204px;
+    padding-bottom: 288px;
+    width: 512px;
+    font-family: Poppins-SemiBold;
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+}
+/*End navbar-landing*/
+
+/*pop-up*/
+.pop-up{
+    background-color: #fff;
+    margin-left: -15px;
+    font-family: Poppins-SemiBold;
+    position: relative;
+}
+.pop-up p{
+    margin: 0 auto;
+    padding-top: 306px;
+    padding-bottom: 306px;
+    width: 464px;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #1B1B1B;
+}
+
+.pop-up .scroll-down{
+    position: absolute;
+    right: 311px;
+    bottom: 176px;
+    font-size: 18px;
+    font-family: RobotoMedium;
+    line-height: 28px;
+    color: #EDC054;
+}
+.pop-up .scroll-down img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.pop-up .btn-sticky{
+    position: absolute;
+    right: 30px;
+    bottom: 27px;
+}
+/*End pop-up*/
+
+/*End Main Section*/
+
+/*Point Section*/
+.point {
+    background-color: #fff;
+    height: 900px;
+    margin-bottom: 127px;
+}
+.point .point-heading {
+    margin-bottom: 50px;
+}
+.point .point-heading h1 {
+    color: #1B1B1B;
+    font-family: Poppins-SemiBold;
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: -4px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.point .point-heading h1 + p{
+    font-family: RobotoRegular;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #9B9B9B;
+    margin-bottom: 68px;
+}
+
+.point h2 {
+    font-family: "Poppins SemiBold";
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #1B1B1B;
+    margin-bottom: 20px;
+}
+.point h2 ~ p {
+    font-family: RobotoRegular;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9B9B9B;
+    margin-bottom: 97px;
+}
+/*End Point Section*/
+
+/*Analysis*/
+
+.analysis {
+    background-color: #fff;
+    height: 900px;
+}
+.analysis .sticky-banner {
+    margin-bottom: 34px;
+}
+.analysis .analysis-content{
+    padding-left: 134px;
+}
+.analysis .analysis-content h2 {
+    font-family: Poppins-SemiBold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #1B1B1B;
+    margin-top: 65px;
+    margin-bottom: 32px;
+}
+.analysis .analysis-content h2 + p{
+    font-family: RobotoRegular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9B9B9B;
+    margin-bottom: 40px;
+}
+
+.analysis .analysis-content h3 {
+    font-family: Poppins-Medium;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #1B1B1B;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+.analysis .analysis-content h3 + p {
+    font-family: RobotoRegular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9B9B9B;
+    margin-bottom: 30px;
+}
+.analysis-content .browser {
+    width: 100%;
+}
+/*End Analysis*/
+
+
+/*End Landing Page Style*/

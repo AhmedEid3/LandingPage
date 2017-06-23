@@ -111,7 +111,7 @@
 
 /*Main Section*/
 .main{
-    margin-bottom: 127px;
+    /*margin-bottom: 127px;*/
 }
 .nav-landing, .pop-up {
     height: 900px;
@@ -206,7 +206,7 @@
 .point {
     background-color: #fff;
     height: 900px;
-    margin-bottom: 127px;
+    /*margin-bottom: 127px;*/
 }
 .point .point-heading {
     margin-bottom: 50px;
